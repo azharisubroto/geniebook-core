@@ -107,13 +107,10 @@ const ToastProvider = ({
     }
   }, [toasts])
 
-  const value = useMemo(() => ({ show, error, success, info, warning }), [
-    show,
-    success,
-    info,
-    error,
-    warning,
-  ])
+  const value = useMemo(
+    () => ({ show, error, success, info, warning }),
+    [show, success, info, error, warning]
+  )
 
   return (
     <ToastContext.Provider value={value}>

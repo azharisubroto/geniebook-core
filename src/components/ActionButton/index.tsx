@@ -59,12 +59,12 @@ const ActionButton = ({
   const content: React.ReactNode[] = []
   const actions: React.ReactNode[] = []
 
-  const handleActionClick = (
-    childOnClick: React.MouseEventHandler<HTMLDivElement>
-  ) => (event: React.MouseEvent<HTMLDivElement>) => {
-    childOnClick(event)
-    setShowActions(false)
-  }
+  const handleActionClick =
+    (childOnClick: React.MouseEventHandler<HTMLDivElement>) =>
+    (event: React.MouseEvent<HTMLDivElement>) => {
+      childOnClick(event)
+      setShowActions(false)
+    }
 
   React.useEffect(() => {
     const clickHandler = (event: MouseEvent) => {

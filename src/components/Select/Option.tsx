@@ -9,8 +9,7 @@ export interface RenderSelectOptionProps {
 }
 
 const optionClassNames = {
-  base:
-    'truncate py-1 px-1 cursor-pointer hover:bg-primary-300 hover:text-white',
+  base: 'truncate py-1 px-1 cursor-pointer hover:bg-primary-300 hover:text-white',
   default: 'text-foreground',
 }
 

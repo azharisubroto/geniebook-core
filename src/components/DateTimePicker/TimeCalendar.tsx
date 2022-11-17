@@ -12,10 +12,10 @@ const HourButton = ({
   hour,
   onHourClick,
 }: HourButtonProps): JSX.Element => {
-  const isSelected = useMemo(() => selected?.getHours() === hour, [
-    selected,
-    hour,
-  ])
+  const isSelected = useMemo(
+    () => selected?.getHours() === hour,
+    [selected, hour]
+  )
 
   return (
     <button
@@ -42,10 +42,10 @@ const MinuteButton = ({
   minute,
   onMinuteClick,
 }: MinuteButtonProps): JSX.Element => {
-  const isSelected = useMemo(() => selected?.getMinutes() === minute, [
-    selected,
-    minute,
-  ])
+  const isSelected = useMemo(
+    () => selected?.getMinutes() === minute,
+    [selected, minute]
+  )
 
   return (
     <button

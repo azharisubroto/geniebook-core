@@ -85,9 +85,10 @@ const Toast = ({
     onCloseRef.current = onClose
   }, [onClose])
 
-  const classes = useMemo(() => variants[variant] ?? variants.default, [
-    variant,
-  ])
+  const classes = useMemo(
+    () => variants[variant] ?? variants.default,
+    [variant]
+  )
 
   return (
     <div

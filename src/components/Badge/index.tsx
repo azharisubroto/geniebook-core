@@ -17,8 +17,7 @@ const CLASSNAMES: Record<Variants, any> = {
     base: 'flex rounded items-center justify-center bg-primary-600 text-white',
   },
   outline: {
-    base:
-      'flex rounded items-center justify-center border border-primary-600 text-primary-600',
+    base: 'flex rounded items-center justify-center border border-primary-600 text-primary-600',
   },
   'no-border': {
     base: 'flex rounded items-center justify-center text-primary-600',
