@@ -12,7 +12,7 @@
     "name": "Geniebook",
     "url": "https://geniebook.com"
   },
-  "homepage": "https://geniebook.github.io/@geniebook/core",
+  "homepage": "https://geniebook.com",
   "dependencies": {
     "@heroicons/react": "^1.0.1",
     "classnames": "^2.3.1",

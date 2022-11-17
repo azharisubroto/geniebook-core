@@ -1,6 +1,4 @@
-# COCO UI
-
-Click [here to access the storybook](https://geniebook.github.io/@geniebook/core/)
+# GBUI CORE
 
 This librairy is a set of React component to help you build beautiful and accesibile apps
 
@@ -8,16 +6,16 @@ This librairy is a set of React component to help you build beautiful and accesi
 
 This library is based on tailwind css so to use it you need to install this library and Tailwind with the following steps.
 
-### Install Coco UI
+### Install GBUI CORE
 
 ```
-npm install --save @@geniebook/core/core
+npm install --save @geniebook/core
 ```
 
 Or alternatively with yarn :
 
 ```
-yarn add @@geniebook/core/core
+yarn add @geniebook/core
 ```
 
 ### Install tailwind
@@ -54,7 +52,7 @@ You can import the default presets in your `tailwind.config.js` file :
 // tailwind.config.js
 module.exports = {
   presets: [
-    require('@@geniebook/core/core/tailwind-theme')
+    require('@geniebook/core/tailwind-theme')
   ],
 }
 ```
